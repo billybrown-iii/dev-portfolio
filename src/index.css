@@ -19,6 +19,7 @@ body {
 
 .header {
   text-align: center;
+  background-color: tan;
 }
 
 .title {
@@ -28,6 +29,7 @@ body {
 
 .subtitle {
   margin-left: 0%;
+  margin-bottom: 1.25vh;
 }
 
 .nav {
