@@ -12,17 +12,18 @@ function App() {
   return (
     <BrowserRouter>
       <div className="header">
-
-        <h2 className="title">Billy Brown III</h2>
-        <div className="subtitle">- a web developer based in the Pacific Northwest</div>
-
-        <div className="nav">
-          <Link to="/" className="nav-item">Home</Link>
-          <Link to="/projects" className="nav-item">Projects</Link>
-          <Link to="/connect" className="nav-item">Connect</Link>
-        </div>
-
+        <div className="title">Billy Brown III</div>
+        <div className="subtitle">a web developer based in the Pacific Northwest</div>
       </div>
+
+      <div className="nav">
+          <Link to="/" className="nav-item">Home</Link>
+          <span className="nav-border" />
+          <Link to="/projects" className="nav-item">Projects</Link>
+          <span className="nav-border" />
+          <Link to="/connect" className="nav-item">Connect</Link>
+      </div>
+
       <div>
         <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Projects} />
