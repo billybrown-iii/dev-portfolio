@@ -64,12 +64,14 @@ body {
 .card {
   background-color: #282828;
   border-radius: 19px;
-  width: 40vw;
+  width: 48vw;
   min-height: 45vh;
   margin: auto;
   margin-top: 4vh;
-  padding: .5em 6em;
+  padding: .5em 4em;
+  text-align: center;
 }
+
 
 .card-title {
   text-align: center;
@@ -78,9 +80,46 @@ body {
   margin-bottom: .5em;
 }
 
+#about-title {
+  font-size: 1.85em;
+}
+
 .content {
   margin: 1.5em 0;
   line-height: 1.4;
+}
+
+hr {
+  margin: 3rem 20px;
+}
+
+.hidden-link {
+  color: whitesmoke;
+  transition: 450ms linear;
+}
+
+.hidden-link:hover {
+  color: cyan;
+  transition-duration: 450ms linear;
+}
+
+.cert {
+  text-align: center;
+  margin: 1em;
+}
+
+.cert a {
+  color: rgb(85, 202, 248);
+}
+
+.cert-title {
+  /* text-decoration: none; */
+  font-size: 1.35em;
+}
+
+.cert-title a {
+  color: whitesmoke;
+  text-decoration: none;;
 }
 
 .project-link {
@@ -92,9 +131,27 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #383838;
-  border-radius: 25px;
-  margin: 0 -4em;
+  /* background-color: rgb(130, 231, 172); */
+  background-color: #393939;
+  color: whitesmoke;
+  /* box-shadow: 0 0 0 3px rgb(130, 231, 172); */
+  font-weight: 500;
+  border-radius: 15px;;
+  /* border-radius 25px; */
+  margin: 2em -2em;
+  padding: 10px;
+  transition: 150ms linear;
+}
+
+.project:hover {
+  /* box-shadow: 0 0 0 7px rgb(130, 231, 172); */
+  /* outline: 15px solid black; */
+  /* border-radius: 30px; */
+  color: #222;
+  background-color: rgb(130, 231, 172);
+  /* border-radius: 7px; */
+  box-shadow: 0 0 0 5px #151515;
+  transition: 200ms linear;
 }
 
 .project-description {
@@ -104,13 +161,14 @@ body {
 }
 
 .project-subtitle {
-  margin: .75em 20px 0 9px;
+  margin: .75em 40px 0 40px;
   font-size: .72em;
 }
 
 .project-image {
   display: inline;
-  width: 11vw;
-  border-radius: 10px;
+  width: 10vw;
+  border-radius: 5px;
+
   float: right;
 }

@@ -11,7 +11,7 @@ function Projects(props) {
                         <div className="project">
                             <div className="project-description">
                                 Lightweight Budget Planner
-                                <div className="project-subtitle">Monthly budget visualizer</div>
+                                <div className="project-subtitle">Lets the user add incomes and expenses to create a monthly budget.</div>
                             </div>
                             <img className="project-image" src={budget}></img>
                         </div>
