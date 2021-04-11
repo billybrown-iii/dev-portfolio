@@ -198,3 +198,33 @@ hr {
 
   float: right;
 }
+
+.connect-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #393939;
+  color: whitesmoke;
+  width: 30%;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.email-copy-icon {
+  opacity: 0;
+}
+
+.email-button:hover .email-copy-icon {
+  color: whitesmoke;
+  opacity: 1;
+  transition: 150ms linear;
+}
+
+.connect-icon {
+  margin-right: .5em;
+  font-size: 1.25em;
+}
