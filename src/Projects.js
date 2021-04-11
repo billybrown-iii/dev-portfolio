@@ -7,13 +7,13 @@ function Projects(props) {
             <div className="card">
                 <div className="card-content">
                     <div className="card-title">Projects</div>
-                    <a className="project-link" href="https://flamboyant-sammet-9818c7.netlify.app/" target="_blank">
+                    <a rel="noreferrer" className="project-link" href="https://flamboyant-sammet-9818c7.netlify.app/" target="_blank">
                         <div className="project">
                             <div className="project-description">
                                 Lightweight Budget Planner
-                                <div className="project-subtitle">Lets the user add incomes and expenses to create a monthly budget.</div>
+                                <div className="project-subtitle">A minimalist monthly budget creation tool.</div>
                             </div>
-                            <img className="project-image" src={budget}></img>
+                            <img className="project-image" src={budget} alt="Budget app preview"></img>
                         </div>
                     </a>
                 </div>

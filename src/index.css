@@ -64,43 +64,38 @@ body {
 .card {
   background-color: #282828;
   border-radius: 19px;
-  width: 48vw;
+  width: 46vw;
   min-height: 45vh;
-  margin: auto;
-  margin-top: 4vh;
-  padding: .5em 4em;
+  margin: 4vh auto 6vh auto;
+  padding: .5em 5em;
   text-align: center;
 }
 
 
 .card-title {
   text-align: center;
-  font-size: 1.75em;
+  font-size: 1.65em;
   margin-top: 1em;
   margin-bottom: .5em;
 }
 
 #about-title {
-  font-size: 1.85em;
+  font-size: 1.75em;
 }
 
 .content {
-  margin: 1.5em 0;
+  margin: 1.5em 3rem;
   line-height: 1.4;
+  text-align: left;
 }
 
 hr {
-  margin: 3rem 20px;
+  margin: 6rem 30px 3rem 30px;
+  color: rgb(212, 212, 212);
 }
 
 .hidden-link {
   color: whitesmoke;
-  transition: 450ms linear;
-}
-
-.hidden-link:hover {
-  color: cyan;
-  transition-duration: 450ms linear;
 }
 
 .cert {
@@ -113,13 +108,44 @@ hr {
 }
 
 .cert-title {
-  /* text-decoration: none; */
   font-size: 1.35em;
 }
 
 .cert-title a {
   color: whitesmoke;
-  text-decoration: none;;
+}
+
+.tech-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 42%;
+  margin: 1.5rem auto 2rem auto;
+  padding-left: 5px;
+}
+
+.tech-icon {
+  font-size: 2em;
+}
+
+.tech-img {
+  max-width: 32px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+.tech-child {
+  flex: 1 0 40%;
+  margin: .35rem 0;
+}
+
+.tech-desc {
+  margin-bottom: 0px;
+}
+
+#react-icon {
+  color: #61DAFB;
 }
 
 .project-link {
