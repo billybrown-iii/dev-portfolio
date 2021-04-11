@@ -20,7 +20,7 @@ function Connect(props) {
         <div>
             <div className="card">
                 <div className="card-title">Connect</div>
-                
+                {/* eslint-disable-next-line */}
                 <a data-tip='Copied!' data-event='click focus' className="connect-item email-button" onClick={(event) => {
                     event.preventDefault();
                     navigator.clipboard.writeText("hi")
@@ -31,6 +31,7 @@ function Connect(props) {
                     Email
                 </a>
                 <ReactTooltip type="light" delayHide={100} globalEventOff='click' afterShow={writeToClip} />
+                {/* eslint-disable-next-line */}
                 <a className="connect-item">
                 <i class="fab fa-github connect-icon"></i>
                     GitHub
