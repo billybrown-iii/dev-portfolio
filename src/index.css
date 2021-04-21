@@ -201,28 +201,56 @@ hr {
 
 .connect-item {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   background-color: #393939;
   color: whitesmoke;
-  width: 30%;
+  width: 60%;
   margin: 20px auto;
   padding: 10px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-}
-
-.email-copy-icon {
-  opacity: 0;
-}
-
-.email-button:hover .email-copy-icon {
-  color: whitesmoke;
-  opacity: 1;
   transition: 150ms linear;
 }
+
+.connect-item:hover {
+  background-color: #494949;
+}
+
+.email-btn-core {
+  width: 75%;
+}
+
+.email-button:hover {
+  padding-bottom: 20px;
+  /* transition: 150ms linear; */
+}
+
+.email-display {
+  width: 75%;
+  transition: 150ms linear;
+  /* display: none; */
+  height: 0;
+  opacity: 0
+}
+
+.email-button:hover .email-display {
+    display: inline;
+    opacity: 1;
+    height: 1em;
+    margin-top: 10px;
+    /* transition: 150ms linear; */
+}
+
+/* .email-button:hover .email-copy-icon {
+  color: whitesmoke;
+  opacity: 1;
+  padding-bottom: 30px;
+  transition: 150ms linear;
+} */
 
 .connect-icon {
   margin-right: .5em;

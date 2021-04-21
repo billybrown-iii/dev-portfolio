@@ -9,7 +9,7 @@ function Home(props) {
                 <div className="card-content">
                     <div className="card-title" id="about-title">About</div>
                     <div className="content">I'm a web developer who started programming by writing scripts in AutoHotKey to automate portions of my office work.  I quickly developed a passion for thinking through problems and building solutions with code.</div>
-                    <div className="content">Today, my primary focus is on clean layouts that provide a graceful and effortless user experience.  I am excited to continue building my portfolio and begin seeking a full-time developer position.</div>
+                    <div className="content">Today, my primary focus is on graceful layouts that provide an effortless user experience.  I am excited to continue building my portfolio and begin seeking a full-time developer position.</div>
                     <hr />
                     <div className="card-title" id="certs-title">Certifications & Learning Modules</div>
                     <div className="content">Here are the notable certifications I've earned and curricula I've gone through.</div>

@@ -10,8 +10,8 @@ function Projects(props) {
                     <a rel="noreferrer" className="project-link" href="https://flamboyant-sammet-9818c7.netlify.app/" target="_blank">
                         <div className="project">
                             <div className="project-description">
-                                Lightweight Budget Planner
-                                <div className="project-subtitle">A minimalist monthly budget creation tool.</div>
+                                Monthly Budget Planner
+                                <div className="project-subtitle">A light-weight monthly budget creation tool.</div>
                             </div>
                             <img className="project-image" src={budget} alt="Budget app preview"></img>
                         </div>

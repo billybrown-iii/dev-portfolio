@@ -21,19 +21,21 @@ function Connect(props) {
             <div className="card">
                 <div className="card-title">Connect</div>
                 {/* eslint-disable-next-line */}
-                <a data-tip='Copied!' data-event='click focus' className="connect-item email-button" onClick={(event) => {
-                    event.preventDefault();
-                    navigator.clipboard.writeText("hi")
-                    }}>
-                        <i class="far fa-clipboard connect-icon email-copy-icon"></i>
+                <a data-tip='Copied!' data-event='click focus' className="connect-item email-button">
+                    <div className="email-btn-core">
                         <i className="fas fa-envelope-square connect-icon"></i>                    
-
-                    Email
+                        Email
+                    </div>
+                    <div className="email-display">
+                        <i class="far fa-clipboard connect-icon email-copy-icon"></i>
+                        billybdev@gmail.com
+                    </div>
+                    
                 </a>
                 <ReactTooltip type="light" delayHide={100} globalEventOff='click' afterShow={writeToClip} />
                 {/* eslint-disable-next-line */}
-                <a className="connect-item">
-                <i class="fab fa-github connect-icon"></i>
+                <a className="connect-item" href="https://github.com/BillyBDev" target="_blank">
+                    <i class="fab fa-github connect-icon"></i>
                     GitHub
                 </a>
 
