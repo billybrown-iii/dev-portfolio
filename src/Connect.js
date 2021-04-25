@@ -1,42 +1,45 @@
-import React from "react"
-import ReactTooltip from 'react-tooltip';
+import React, { useState } from "react";
+import Resume from './resume.pdf';
 
-// function ConnectModule(icon, desc){
-//     const [formToggle, setFormToggle] = useState(false);
-//     return (
-//         <div>
 
-//         </div>
-//     )
-// }
 
 function Connect(props) {
+    const [copyStatus, setCopyStatus] = useState("Copy to clipboard?");
+
     function writeToClip(event){
         event.preventDefault();
         navigator.clipboard.writeText("billybdev@gmail.com");
-        setTimeout(ReactTooltip.hide, 1200);
+        setCopyStatus("Copied!");
+        setTimeout(() => {setCopyStatus("Copy to clipboard?")}, 2000)
     }
     return (
         <div>
             <div className="card">
                 <div className="card-title">Connect</div>
                 {/* eslint-disable-next-line */}
-                <a data-tip='Copied!' data-event='click focus' className="connect-item email-button">
+                <a className="connect-item email-button" onClick={e => {writeToClip(e)}}>
                     <div className="email-btn-core">
                         <i className="fas fa-envelope-square connect-icon"></i>                    
                         Email
                     </div>
                     <div className="email-display">
-                        <i class="far fa-clipboard connect-icon email-copy-icon"></i>
                         billybdev@gmail.com
+                    </div>
+                    <div className="email-display">
+                        {copyStatus}
                     </div>
                     
                 </a>
-                <ReactTooltip type="light" delayHide={100} globalEventOff='click' afterShow={writeToClip} />
+                
                 {/* eslint-disable-next-line */}
                 <a className="connect-item" href="https://github.com/BillyBDev" target="_blank">
                     <i class="fab fa-github connect-icon"></i>
                     GitHub
+                </a>
+
+                <a className="connect-item" href={Resume} target="_blank" rel="noreferrer">
+                    <i class="fas fa-file-alt connect-icon"></i>
+                    Resume
                 </a>
 
             </div>
@@ -45,3 +48,6 @@ function Connect(props) {
 }
 
 export default Connect;
+
+
+

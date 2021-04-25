@@ -64,10 +64,10 @@ body {
 .card {
   background-color: #282828;
   border-radius: 19px;
-  width: 46vw;
+  width: 60%;
   min-height: 45vh;
   margin: 4vh auto 6vh auto;
-  padding: .5em 5em;
+  padding: .5em 3em;
   text-align: center;
 }
 
@@ -84,9 +84,13 @@ body {
 }
 
 .content {
-  margin: 1.5em 3rem;
+  margin: 1.5em 0rem;
   line-height: 1.4;
   text-align: left;
+}
+
+.cert-desc {
+  text-align: center;
 }
 
 hr {
@@ -100,7 +104,7 @@ hr {
 
 .cert {
   text-align: center;
-  margin: 1em;
+  margin: 1em -2em;
 }
 
 .cert a {
@@ -166,18 +170,18 @@ hr {
   /* border-radius 25px; */
   margin: 2em -2em;
   padding: 10px;
-  transition: 150ms linear;
+  transition: 100ms linear;
 }
 
 .project:hover {
   /* box-shadow: 0 0 0 7px rgb(130, 231, 172); */
   /* outline: 15px solid black; */
   /* border-radius: 30px; */
-  color: #222;
-  background-color: rgb(130, 231, 172);
+  color: #262626;
+  background-color: rgb(165, 235, 231);
   /* border-radius: 7px; */
-  box-shadow: 0 0 0 5px #151515;
-  transition: 200ms linear;
+  box-shadow: 0 0 0 2px #151515;
+  /* transition: 200ms linear; */
 }
 
 .project-description {
@@ -193,9 +197,8 @@ hr {
 
 .project-image {
   display: inline;
-  width: 10vw;
+  width: 80px;
   border-radius: 5px;
-
   float: right;
 }
 
@@ -242,17 +245,27 @@ hr {
     opacity: 1;
     height: 1em;
     margin-top: 10px;
-    /* transition: 150ms linear; */
 }
-
-/* .email-button:hover .email-copy-icon {
-  color: whitesmoke;
-  opacity: 1;
-  padding-bottom: 30px;
-  transition: 150ms linear;
-} */
 
 .connect-icon {
   margin-right: .5em;
   font-size: 1.25em;
+}
+
+@media (max-width: 700px){
+  .tech-container {
+    width: 89%;
+  }
+  .project-description {
+    font-size: 1.1em;
+  }
+  .project-subtitle {
+    margin: .75em 20px 0 20px;
+    font-size: .67em;
+  }
+  .connect-item {
+    width: 60%;
+    padding-left: -30px;
+    padding-right: -30px;
+  }
 }

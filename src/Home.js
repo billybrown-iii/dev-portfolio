@@ -6,13 +6,13 @@ function Home(props) {
     return (
         <div>
             <div className="card">
-                <div className="card-content">
+                <div>
                     <div className="card-title" id="about-title">About</div>
                     <div className="content">I'm a web developer who started programming by writing scripts in AutoHotKey to automate portions of my office work.  I quickly developed a passion for thinking through problems and building solutions with code.</div>
-                    <div className="content">Today, my primary focus is on graceful layouts that provide an effortless user experience.  I am excited to continue building my portfolio and begin seeking a full-time developer position.</div>
+                    <div className="content">Today, my main focus is on designing web apps with clean functionality and a high degree of polish.  I'm excited to continue to create projects and begin seeking a full-time developer position.</div>
                     <hr />
                     <div className="card-title" id="certs-title">Certifications & Learning Modules</div>
-                    <div className="content">Here are the notable certifications I've earned and curricula I've gone through.</div>
+                    <div className="content cert-desc">Here are the notable certifications I've earned and curricula I've gone through.</div>
                     <div className="cert cert-title">
                         <a rel="noreferrer" className="hidden-link" href="http://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
                     </div>
