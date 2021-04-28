@@ -65,6 +65,7 @@ body {
   background-color: #282828;
   border-radius: 19px;
   width: 60%;
+  max-width: 580px;
   min-height: 45vh;
   margin: 4vh auto 6vh auto;
   padding: .5em 3em;
@@ -168,7 +169,7 @@ hr {
   font-weight: 500;
   border-radius: 15px;;
   /* border-radius 25px; */
-  margin: 2em -2em;
+  margin: 2em 0;
   padding: 10px;
   transition: 100ms linear;
 }
@@ -228,7 +229,7 @@ hr {
 }
 
 .email-button:hover {
-  padding-bottom: 20px;
+  padding-bottom: 18px;
   /* transition: 150ms linear; */
 }
 
@@ -250,6 +251,12 @@ hr {
 .connect-icon {
   margin-right: .5em;
   font-size: 1.25em;
+}
+
+@media (min-width: 850px) {
+  .card {
+    max-width: 575px;
+  }
 }
 
 @media (max-width: 700px){
