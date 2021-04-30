@@ -279,14 +279,15 @@ hr {
 
 @media (max-width: 500px){
   .project {
-    margin-left: -25px;
-    margin-right: -25px;
+    margin-left: -27px;
+    margin-right: -27px;
   }
   .project-description {
-    font-size: .95em;
+    font-size: .93em;
   }
   .project-subtitle {
-    font-size: .85em;
+    font-size: .84em;
+    margin: .7em 15px 0 20px;
   }
   .connect-item {
     width: 85%;
