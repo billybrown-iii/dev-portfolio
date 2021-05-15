@@ -126,6 +126,10 @@ hr {
   color: whitesmoke;
 }
 
+.cert-desc {
+  text-align: center;
+}
+
 .tech-container {
   display: flex;
   justify-content: center;

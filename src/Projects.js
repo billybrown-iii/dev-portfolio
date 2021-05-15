@@ -10,8 +10,8 @@ function Projects(props) {
                     <a rel="noreferrer" className="project-link" href="https://personalbudget.netlify.app/" target="_blank">
                         <div className="project">
                             <div className="project-description">
-                                Personal Budget Creator
-                                <div className="project-subtitle">Monthly budget planner / creation tool</div>
+                                Monthly Budget Creator
+                                <div className="project-subtitle">Budget planner / creation tool</div>
                             </div>
                             <img className="project-image" src={budget} alt="Budget app preview"></img>
                         </div>
