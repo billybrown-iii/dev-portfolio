@@ -7,7 +7,7 @@ function Projects(props) {
             <div className="card">
                 <div className="card-content">
                     <div className="card-title">Projects</div>
-                    <a rel="noreferrer" className="project-link" href="https://personalbudget.netlify.app/" target="_blank">
+                    <a rel="noreferrer" className="project-link" href="https://monthlybudget.netlify.app/" target="_blank">
                         <div className="project">
                             <div className="project-description">
                                 Monthly Budget Creator
