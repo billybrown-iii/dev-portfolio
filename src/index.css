@@ -163,36 +163,40 @@ hr {
   color: #61DAFB;
 }
 
-.project-link {
-  text-decoration: none;
-  color: white;
-}
-
 .project {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* background-color: rgb(130, 231, 172); */
   background-color: #393939;
   color: whitesmoke;
-  /* box-shadow: 0 0 0 3px rgb(130, 231, 172); */
   font-weight: 500;
   border-radius: 15px;;
-  /* border-radius 25px; */
   margin: 2em 0;
   padding: 10px;
   transition: 100ms linear;
 }
 
+.project-link {
+  text-decoration: none;
+  color: white;
+}
+
 .project:hover {
-  /* box-shadow: 0 0 0 7px rgb(130, 231, 172); */
-  /* outline: 15px solid black; */
-  /* border-radius: 30px; */
   color: #262626;
   background-color: rgb(165, 235, 231);
-  /* border-radius: 7px; */
   box-shadow: 0 0 0 2px #151515;
-  /* transition: 200ms linear; */
+}
+
+.github-link {
+  margin-left: .35em;
+  text-decoration: none;
+  color: white;
+  font-size: 3em;
+  transition: 55ms linear;
+}
+
+.github-link:hover {
+  color: #262626;
 }
 
 .project-description {
@@ -211,6 +215,7 @@ hr {
   width: 80px;
   border-radius: 5px;
   float: right;
+  margin-left: 2.5em;
 }
 
 .connect-item {

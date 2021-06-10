@@ -1,5 +1,6 @@
 import React from "react"
 import budget from './budget.png'
+import quote from './quote.png'
 
 function Projects(props) {
     return (
@@ -7,8 +8,12 @@ function Projects(props) {
             <div className="card">
                 <div className="card-content">
                     <div className="card-title">Projects</div>
+
                     <a rel="noreferrer" className="project-link" href="https://monthlybudget.netlify.app/" target="_blank">
                         <div className="project">
+                            <a className="github-link" href="https://github.com/BillyBDev/budget-react-app" target="_blank">
+                            <i class="fab fa-github-alt"></i>
+                            </a>
                             <div className="project-description">
                                 Monthly Budget Maker
                                 <div className="project-subtitle">Budget planner / creation tool</div>
@@ -16,6 +21,20 @@ function Projects(props) {
                             <img className="project-image" src={budget} alt="Budget app preview"></img>
                         </div>
                     </a>
+
+                    <a rel="noreferrer" className="project-link" href="https://random-quotation.netlify.app/" target="_blank">
+                        <div className="project">
+                            <a className="github-link" href="https://github.com/BillyBDev/random-quote" target="_blank">
+                            <i class="fab fa-github-alt"></i>
+                            </a>
+                            <div className="project-description">
+                                Random Quote Generator
+                                <div className="project-subtitle">Displays random quotes from a Web API</div>
+                            </div>
+                            <img className="project-image" src={quote} alt="Quote app preview"></img>
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </div>
