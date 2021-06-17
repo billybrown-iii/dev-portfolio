@@ -12,7 +12,8 @@ function Projects(props) {
                     <a className="project-link" href="https://monthlybudget.netlify.app/" target="_blank" rel="noreferrer">
                         <div className="project">
                             <a className="github-link" href="https://github.com/BillyBDev/budget-react-app" target="_blank" rel="noreferrer">
-                            <i class="fab fa-github-alt"></i>
+                                <i class="fab fa-github-alt"></i>
+                                <div class="gh-label">View Code</div>
                             </a>
                             <div className="project-description">
                                 Monthly Budget Maker
@@ -25,7 +26,8 @@ function Projects(props) {
                     <a className="project-link" href="https://random-quotation.netlify.app/" target="_blank" rel="noreferrer">
                         <div className="project">
                             <a className="github-link" href="https://github.com/BillyBDev/random-quote" target="_blank" rel="noreferrer">
-                            <i class="fab fa-github-alt"></i>
+                                <i class="fab fa-github-alt"></i>
+                                <div class="gh-label">View Code</div>
                             </a>
                             <div className="project-description">
                                 Random Quote Generator

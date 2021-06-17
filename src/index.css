@@ -199,10 +199,17 @@ hr {
   color: #262626;
 }
 
+.gh-label {
+  font-size: .315em;
+  margin: 0 -20px 0 -20px;
+}
+
 .project-description {
   font-size: 1.3em;
   flex-grow: 1;
   text-align: center;
+  margin-left: 5px;
+  /* margin-right: -5px; */
 }
 
 .project-subtitle {
@@ -215,7 +222,7 @@ hr {
   width: 80px;
   border-radius: 5px;
   float: right;
-  margin-left: 2.5em;
+  margin-left: .5em;
 }
 
 .connect-item {
