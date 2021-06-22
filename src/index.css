@@ -275,9 +275,14 @@ hr {
   font-size: 1.25em;
 }
 
-@media (max-width: 700px){
+
+
+@media (max-width: 775px){
   .tech-container {
     width: 89%;
+  }
+  .github-link {
+    font-size: 2.5em;
   }
   .project-description {
     font-size: 1.1em;
@@ -293,7 +298,7 @@ hr {
   }
 }
 
-@media (max-width: 500px){
+@media (max-width: 650px){
   .project {
     margin-left: -29px;
     margin-right: -29px;
