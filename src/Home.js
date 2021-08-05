@@ -8,8 +8,9 @@ function Home(props) {
             <div className="card">
                 <div>
                     <div className="card-title" id="about-title">About</div>
-                    <div className="content">I'm a web developer who started programming by writing scripts in AutoHotKey to automate portions of my office work.  This led me to develop a passion for thinking through problems and building solutions with code.</div>
-                    <div className="content">My current focus is on building web apps with graceful design and clean functionality.  I'm excited to continue creating projects and begin seeking a full-time developer position.</div>
+                    <div className="content">I'm Billy, a web developer with a focus on building web apps with ReactJS.</div>
+                    <div className="content">My interest in programming was sparked in 2020, when I began writing small scripts to automate and speed up repetitive tasks in my office work.  I found the problem-solving to be very rewarding, so I started diving into various learning resources in order to learn programming in greater scope.</div>
+                    <div className="content">Currently, my time is spent building projects, learning more about all aspects of software development, and coming to know the Dev community.  I'm excited to continue to make progress on this never-ending pursuit of learning, with the aim of software development as a full-time profession.</div>
                     <hr />
                     <div className="card-title" id="certs-title">Certifications & Learning Modules</div>
                     <div className="content cert-desc">Here are the notable certifications I've earned and curricula I've gone through.</div>
