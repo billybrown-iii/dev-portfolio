@@ -7,7 +7,7 @@ function Projects(props) {
         <div>
             <div className="card">
                 <div className="card-content">
-                    <div className="card-title">Projects</div>
+                    <div className="card-title">Original Projects</div>
 
                     <a className="project-link" href="https://monthlybudget.netlify.app/" target="_blank" rel="noreferrer">
                         <div className="project">
@@ -22,6 +22,8 @@ function Projects(props) {
                             <img className="project-image" src={budget} alt="Budget app preview"></img>
                         </div>
                     </a>
+
+                    <div className="card-title">Assigned Projects</div>
 
                     <a className="project-link" href="https://random-quotation.netlify.app/" target="_blank" rel="noreferrer">
                         <div className="project">

@@ -8,9 +8,10 @@ function Home(props) {
             <div className="card">
                 <div>
                     <div className="card-title" id="about-title">About</div>
-                    <div className="content">I'm Billy, a web developer with a focus on building web apps with React.</div>
-                    <div className="content">My interest in programming was sparked in 2020, when I began writing small scripts to automate and speed up repetitive work tasks.  I found it very rewarding, so I started diving into various learning resources in order to learn programming in greater scope.</div>
-                    <div className="content">Currently, my time is spent building projects, learning more about all aspects of software development, and coming to know the Dev community.  I'm excited to continue to make progress on this never-ending pursuit of learning, with the aim of software development as a full-time profession.</div>
+                    <div className="content">Hey, I'm Billy. &nbsp;I'm a web developer, and I enjoy building web apps with JavaScript and React.</div>
+                    <div className="content">This is my portfolio website, where I showcase some of my projects and certifications. &nbsp;I'm constantly tackling new projects, and my goal is to become a skilled full stack developer. &nbsp;In particular, tricky algorithm challenges are something I have passion for.</div>
+                    <div className="content">I'm currently employed as a Rule Developer at Transcepta LLC. &nbsp;This is a junior-level position that involves some programming tasks. &nbsp;Technologies used include vbScript, MySQL, Regular Expressions, AutoHotKey, and version control.</div>
+                    <div className="content">I hope to build up my skills in modern frameworks to the point of becoming a full-time Web Developer / Software Engineer. &nbsp;Thank you for checking out my portfolio!</div>
                     <hr />
                     <div className="card-title" id="certs-title">Certifications & Learning Modules</div>
                     <div className="content cert-desc">Here are the notable certifications I've earned and curricula I've gone through.</div>
