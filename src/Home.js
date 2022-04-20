@@ -8,9 +8,8 @@ function Home(props) {
             <div className="card">
                 <div>
                     <div className="card-title" id="about-title">About</div>
-                    <div className="content">Hey, I'm Billy. &nbsp;I'm a web developer, and I enjoy building web apps with JavaScript and React.</div>
-                    <div className="content">This is my portfolio website, where I showcase some of my projects and certifications. &nbsp;I'm constantly tackling new projects, and my goal is to become a skilled full stack developer. &nbsp;In particular, tricky algorithm challenges are something I have passion for.</div>
-                    <div className="content">I'm currently employed as a Rule Developer at Transcepta LLC. &nbsp;This is a junior-level position that involves some programming tasks. &nbsp;Technologies used include vbScript, MySQL, Regular Expressions, AutoHotKey, and version control.</div>
+                    <div className="content">Hey, I'm Billy. &nbsp;I'm a web developer, and I enjoy building web apps with JavaScript and React.  This is my portfolio website, where I showcase some of my projects and certifications.</div>
+                    <div className="content">I'm currently employed as a Rule Developer at Transcepta LLC. &nbsp;This is a junior-level position that involves some programming tasks. &nbsp;The main technologies we use are vbScript, Regular Expressions, SQL, and version control.</div>
                     <div className="content">I hope to build up my skills in modern frameworks to the point of becoming a full-time Web Developer / Software Engineer. &nbsp;Thank you for checking out my portfolio!</div>
                     <hr />
                     <div className="card-title" id="certs-title">Certifications & Learning Modules</div>
