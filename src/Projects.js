@@ -1,6 +1,7 @@
 import React from "react"
 import budget from './budget.png'
 import quote from './quote.png'
+import calc from './calc.png'
 
 function Projects(props) {
     return (
@@ -36,6 +37,20 @@ function Projects(props) {
                                 <div className="project-subtitle">Displays random quotes from a Web API</div>
                             </div>
                             <img className="project-image" src={quote} alt="Quote app preview"></img>
+                        </div>
+                    </a>
+
+                    <a className="project-link" href="https://billybdev.github.io/javascript-calculator/" target="_blank" rel="noreferrer">
+                        <div className="project">
+                            <a className="github-link" href="https://github.com/BillyBDev/javascript-calculator" target="_blank" rel="noreferrer">
+                                <i class="fab fa-github-alt"></i>
+                                <div class="gh-label">View Code</div>
+                            </a>
+                            <div className="project-description">
+                                JavaScript Calculator
+                                <div className="project-subtitle">Built with JavaScript and React hooks</div>
+                            </div>
+                            <img className="project-image" src={calc} alt="Calculator app preview"></img>
                         </div>
                     </a>
 
