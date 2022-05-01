@@ -37,6 +37,11 @@ function Connect(props) {
                     GitHub
                 </a>
 
+                <a className="connect-item" href="https://linkedin.com/in/billy-brown-iii/" target="_blank">
+                    <i class="fab fa-linkedin connect-icon"></i>
+                    LinkedIn
+                </a>
+
                 <a className="connect-item" href={Resume} target="_blank" rel="noreferrer">
                     <i class="fas fa-file-alt connect-icon"></i>
                     Resume
