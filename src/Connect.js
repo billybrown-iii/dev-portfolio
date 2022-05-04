@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import Resume from './resume.pdf';
-
-
 
 function Connect(props) {
     const [copyStatus, setCopyStatus] = useState("Copy to clipboard?");
@@ -16,8 +13,8 @@ function Connect(props) {
         <div>
             <div className="card">
                 <div className="card-title">Connect</div>
-                {/* eslint-disable-next-line */}
-                <a className="connect-item email-button" onClick={e => {writeToClip(e)}}>
+
+                <div className="connect-item email-button" onClick={e => {writeToClip(e)}}>
                     <div className="email-btn-core">
                         <i className="fas fa-envelope-square connect-icon"></i>                    
                         Email
@@ -29,21 +26,19 @@ function Connect(props) {
                         {copyStatus}
                     </div>
                     
-                </a>
+                </div>
                 
-                {/* eslint-disable-next-line */}
                 <a className="connect-item" href="https://github.com/BillyBDev" target="_blank" rel="noreferrer">
                     <i class="fab fa-github connect-icon"></i>
                     GitHub
                 </a>
 
-                {/* eslint-disable-next-line */}
                 <a className="connect-item" href="https://linkedin.com/in/billy-brown-iii/" target="_blank" rel="noreferrer">
                     <i class="fab fa-linkedin connect-icon"></i>
                     LinkedIn
                 </a>
 
-                <a className="connect-item" href={Resume} target="_blank" rel="noreferrer">
+                <a className="connect-item" href="/resume.pdf" target="_blank" rel="noreferrer">
                     <i class="fas fa-file-alt connect-icon"></i>
                     Resume
                 </a>

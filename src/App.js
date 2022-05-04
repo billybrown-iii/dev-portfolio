@@ -5,10 +5,8 @@ import Projects from './Projects.js';
 import Connect from './Connect.js';
 
 
-
-
-
 function App() {
+  const reload = () => window.location.reload();
   return (
     <BrowserRouter>
       <div className="header">
@@ -28,6 +26,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/connect" component={Connect} />
+        <Route path="/resume.pdf" onEnter={reload} />
       </div>
     </BrowserRouter>
   );
