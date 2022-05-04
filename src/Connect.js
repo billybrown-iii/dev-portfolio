@@ -32,12 +32,13 @@ function Connect(props) {
                 </a>
                 
                 {/* eslint-disable-next-line */}
-                <a className="connect-item" href="https://github.com/BillyBDev" target="_blank">
+                <a className="connect-item" href="https://github.com/BillyBDev" target="_blank" rel="noreferrer">
                     <i class="fab fa-github connect-icon"></i>
                     GitHub
                 </a>
 
-                <a className="connect-item" href="https://linkedin.com/in/billy-brown-iii/" target="_blank">
+                {/* eslint-disable-next-line */}
+                <a className="connect-item" href="https://linkedin.com/in/billy-brown-iii/" target="_blank" rel="noreferrer">
                     <i class="fab fa-linkedin connect-icon"></i>
                     LinkedIn
                 </a>
