@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import mongoDB from './mongodb.png';
 import expressIcon from './express.png';
 
@@ -8,11 +9,11 @@ function Home(props) {
             <div className="card">
                 <div>
                     <div className="card-title" id="about-title">About</div>
-                    <div className="content">Hey, I'm Billy. &nbsp;I'm a web developer, and I enjoy building web apps with JavaScript and React.  This is my portfolio website, where I showcase some of my projects and certifications.</div>
-                    <div className="content">I'm currently employed as a Rule Developer at Transcepta LLC. &nbsp;This is a junior-level position that involves some programming tasks. &nbsp;The main technologies we use are vbScript, Regular Expressions, SQL, and version control.</div>
-                    <div className="content">I hope to build up my skills in modern frameworks to the point of becoming a full-time Web Developer / Software Engineer. &nbsp;Thank you for checking out my portfolio!</div>
+                    <div className="content">Hey, I'm Billy! &nbsp;I'm a JavaScript Developer, and I'm using various technologies (primarily React and Node) to build full-stack web applications.</div>
+                    <div className="content">Aside from programming, I also love reading fiction and nonfiction, consuming unhealthy amounts of coffee and tea, playing a video game or getting out to a local outdoor running trail.</div>
+                    <div className="content">Feel free to take a peek at my <Link to="/projects" className="link">Projects</Link> page to see what I've worked on lately, or have a look at my <Link to="/connect" className="link">Connect</Link> page if you'd like to get in touch.</div>
                     <hr />
-                    <div className="card-title" id="certs-title">Certifications & Learning Modules</div>
+                    <div className="card-title" id="certs-title">Certifications & Education</div>
                     <div className="content cert-desc">Here are the notable certifications I've earned and curricula I've gone through.</div>
                     <div className="cert cert-title">
                         <a rel="noreferrer" className="hidden-link" href="http://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
@@ -21,8 +22,11 @@ function Home(props) {
                         <a rel="noreferrer" href="https://www.freecodecamp.org/certification/fcc13351cc5-efa2-42ff-b625-09f907aa61fb/responsive-web-design" target="_blank">Responsive Web Design</a>
                     </div>
                     <div className="cert">
-                    <a rel="noreferrer" href="https://www.freecodecamp.org/certification/fcc13351cc5-efa2-42ff-b625-09f907aa61fb/javascript-algorithms-and-data-structures" target="_blank">JavaScript Algorithms and Data Structures</a>
+                        <a rel="noreferrer" href="https://www.freecodecamp.org/certification/fcc13351cc5-efa2-42ff-b625-09f907aa61fb/javascript-algorithms-and-data-structures" target="_blank">JavaScript Algorithms and Data Structures</a>
                     </div>
+                    <div className="cert">
+                        <a rel="noreferrer" href="https://www.freecodecamp.org/certification/fcc13351cc5-efa2-42ff-b625-09f907aa61fb/front-end-development-libraries" target="_blank">Front End Development Libraries</a>
+                    </div>    
                     <div className="cert cert-title">
                         <a rel="noreferrer" href="http://www.udemy.com" target="_blank">Udemy</a>
                     </div>
@@ -64,7 +68,6 @@ function Home(props) {
                         </div>
                         <div className="tech-desc tech-child">React</div>
                         <i className="fab fa-react tech-icon tech-child" id="react-icon"></i>
-
                     </div>
                 </div>
             </div>

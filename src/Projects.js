@@ -49,7 +49,7 @@ function Projects(props) {
                             </a>
                             <div className="project-description">
                                 JavaScript Calculator
-                                <div className="project-subtitle">Built with React and JavaScript</div>
+                                <div className="project-subtitle">Built with React Hooks</div>
                             </div>
                             <img className="project-image" src={calc} alt="Calculator app preview"></img>
                         </div>
@@ -63,7 +63,7 @@ function Projects(props) {
                             </a>
                             <div className="project-description">
                                 Pomodoro Timer
-                                <div className="project-subtitle">Built with React and JavaScript</div>
+                                <div className="project-subtitle">Built with React Hooks</div>
                             </div>
                             <img className="project-image" src={clock} alt="Pomodoro timer preview"></img>
                         </div>

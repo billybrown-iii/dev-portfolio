@@ -14,19 +14,10 @@ function Connect(props) {
             <div className="card">
                 <div className="card-title">Connect</div>
 
-                <div className="connect-item email-button" onClick={e => {writeToClip(e)}}>
-                    <div className="email-btn-core">
-                        <i className="fas fa-envelope-square connect-icon"></i>                    
-                        Email
-                    </div>
-                    <div className="email-display">
-                        billybdev@gmail.com
-                    </div>
-                    <div className="email-display">
-                        {copyStatus}
-                    </div>
-                    
-                </div>
+                <a className="connect-item" href="/resume.pdf" target="_blank" rel="noreferrer">
+                    <i class="fas fa-file-alt connect-icon"></i>
+                    Resume
+                </a>
                 
                 <a className="connect-item" href="https://github.com/BillyBDev" target="_blank" rel="noreferrer">
                     <i class="fab fa-github connect-icon"></i>
@@ -38,11 +29,18 @@ function Connect(props) {
                     LinkedIn
                 </a>
 
-                <a className="connect-item" href="/resume.pdf" target="_blank" rel="noreferrer">
-                    <i class="fas fa-file-alt connect-icon"></i>
-                    Resume
-                </a>
-
+                <div className="connect-item email-button" onClick={e => {writeToClip(e)}}>
+                    <div className="email-btn-core">
+                        <i className="fas fa-envelope-square connect-icon"></i>                    
+                        Email
+                    </div>
+                    <div className="email-display">
+                        billybdev@gmail.com
+                    </div>
+                    <div className="email-display">
+                        {copyStatus}
+                    </div>
+                </div>
             </div>
         </div>
     )

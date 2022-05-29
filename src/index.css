@@ -91,6 +91,11 @@ body {
   text-align: left;
 }
 
+.link {
+  /* text-decoration: none; */
+  color: white;
+}
+
 ul {
   list-style-position: inside;
   text-align: center;
@@ -98,7 +103,7 @@ ul {
 }
 
 hr {
-  margin: 6rem 30px 3rem 30px;
+  margin: 4rem 30px 3rem 30px;
   color: rgb(212, 212, 212);
 }
 
