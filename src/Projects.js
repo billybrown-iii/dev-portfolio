@@ -1,6 +1,7 @@
 import React from "react"
 import budget from './budget.png'
 import quote from './quote.png'
+import clock from './clock.png'
 import calc from './calc.png'
 
 function Projects(props) {
@@ -18,13 +19,13 @@ function Projects(props) {
                             </a>
                             <div className="project-description">
                                 Monthly Budget Maker
-                                <div className="project-subtitle">Budget planner / creation tool</div>
+                                <div className="project-subtitle">Budget creation tool</div>
                             </div>
                             <img className="project-image" src={budget} alt="Budget app preview"></img>
                         </div>
                     </a>
 
-                    <div className="card-title">Assigned Projects</div>
+                    <div className="card-title">Curriculum Projects</div>
 
                     <a className="project-link" href="https://random-quotation.netlify.app/" target="_blank" rel="noreferrer">
                         <div className="project">
@@ -48,9 +49,23 @@ function Projects(props) {
                             </a>
                             <div className="project-description">
                                 JavaScript Calculator
-                                <div className="project-subtitle">Built with JavaScript and React hooks</div>
+                                <div className="project-subtitle">Built with React and JavaScript</div>
                             </div>
                             <img className="project-image" src={calc} alt="Calculator app preview"></img>
+                        </div>
+                    </a>
+
+                    <a className="project-link" href="https://billybdev.github.io/pomodoro-clock/" target="_blank" rel="noreferrer">
+                        <div className="project">
+                            <a className="github-link" href="https://github.com/BillyBDev/pomodoro-clock" target="_blank" rel="noreferrer">
+                                <i class="fab fa-github-alt"></i>
+                                <div className="gh-label">View Code</div>
+                            </a>
+                            <div className="project-description">
+                                Pomodoro Timer
+                                <div className="project-subtitle">Built with React and JavaScript</div>
+                            </div>
+                            <img className="project-image" src={clock} alt="Pomodoro timer preview"></img>
                         </div>
                     </a>
 
