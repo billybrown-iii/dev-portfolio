@@ -10,7 +10,7 @@ function Home(props) {
                 <div>
                     <div className="card-title" id="about-title">About</div>
                     <div className="content">Hey, I'm Billy! &nbsp;I'm a JavaScript Developer, and I'm using various technologies (primarily React and Node) to build full-stack web applications.</div>
-                    <div className="content">Aside from programming, I also love reading fiction and nonfiction, consuming unhealthy amounts of coffee and tea, playing a video game or getting out to a local outdoor running trail.</div>
+                    <div className="content">Aside from programming, I also love reading fiction and nonfiction, drinking excessive quantities of coffee and tea, playing a video game or getting out to a local running trail.</div>
                     <div className="content">Feel free to take a peek at my <Link to="/projects" className="link">Projects</Link> page to see what I've worked on lately, or have a look at my <Link to="/connect" className="link">Connect</Link> page if you'd like to get in touch.</div>
                     <hr />
                     <div className="card-title" id="certs-title">Certifications & Education</div>
