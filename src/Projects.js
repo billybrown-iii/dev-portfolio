@@ -18,8 +18,8 @@ function Projects(props) {
                                 <div class="gh-label">View Code</div>
                             </a>
                             <div className="project-description">
-                                Monthly Budget Maker
-                                <div className="project-subtitle">Budget creation tool</div>
+                                Budget Snapshot Tool
+                                <div className="project-subtitle">Creates Monthly Budgets in Seconds</div>
                             </div>
                             <img className="project-image" src={budget} alt="Budget app preview"></img>
                         </div>
