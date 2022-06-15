@@ -1,8 +1,8 @@
 import React from "react"
-import budget from './budget.png'
-import quote from './quote.png'
-import clock from './clock.png'
-import calc from './calc.png'
+import budget from './bin/budget.png'
+import quote from './bin/quote.png'
+import clock from './bin/clock.png'
+import calc from './bin/calc.png'
 
 function Projects(props) {
     return (
@@ -14,12 +14,12 @@ function Projects(props) {
                     <a className="project-link" href="https://monthlybudget.netlify.app/" target="_blank" rel="noreferrer">
                         <div className="project">
                             <a className="github-link" href="https://github.com/BillyBDev/budget-react-app" target="_blank" rel="noreferrer">
-                                <i class="fab fa-github-alt"></i>
-                                <div class="gh-label">View Code</div>
+                                <i className="fab fa-github-alt"></i>
+                                <div className="gh-label">View Code</div>
                             </a>
                             <div className="project-description">
                                 Budget Snapshot Tool
-                                <div className="project-subtitle">Creates Monthly Budgets in Seconds</div>
+                                <div className="project-subtitle">Create Monthly Budgets in Seconds</div>
                             </div>
                             <img className="project-image" src={budget} alt="Budget app preview"></img>
                         </div>
@@ -29,9 +29,9 @@ function Projects(props) {
 
                     <a className="project-link" href="https://random-quotation.netlify.app/" target="_blank" rel="noreferrer">
                         <div className="project">
-                            <a className="github-link" href="https://github.com/BillyBDev/random-quote" target="_blank" rel="noreferrer">
-                                <i class="fab fa-github-alt"></i>
-                                <div class="gh-label">View Code</div>
+                            <a className="github-link" href="https://github.com/billybrown-iii/random-quote" target="_blank" rel="noreferrer">
+                                <i className="fab fa-github-alt"></i>
+                                <div className="gh-label">View Code</div>
                             </a>
                             <div className="project-description">
                                 Random Quote Generator
@@ -41,11 +41,11 @@ function Projects(props) {
                         </div>
                     </a>
 
-                    <a className="project-link" href="https://billybdev.github.io/javascript-calculator/" target="_blank" rel="noreferrer">
+                    <a className="project-link" href="https://billybrown-iii.github.io/javascript-calculator/" target="_blank" rel="noreferrer">
                         <div className="project">
-                            <a className="github-link" href="https://github.com/BillyBDev/javascript-calculator" target="_blank" rel="noreferrer">
-                                <i class="fab fa-github-alt"></i>
-                                <div class="gh-label">View Code</div>
+                            <a className="github-link" href="https://github.com/billybrown-iii/javascript-calculator" target="_blank" rel="noreferrer">
+                                <i className="fab fa-github-alt"></i>
+                                <div className="gh-label">View Code</div>
                             </a>
                             <div className="project-description">
                                 JavaScript Calculator
@@ -55,10 +55,10 @@ function Projects(props) {
                         </div>
                     </a>
 
-                    <a className="project-link" href="https://billybdev.github.io/pomodoro-clock/" target="_blank" rel="noreferrer">
+                    <a className="project-link" href="https://billybrown-iii.github.io/pomodoro-clock/" target="_blank" rel="noreferrer">
                         <div className="project">
-                            <a className="github-link" href="https://github.com/BillyBDev/pomodoro-clock" target="_blank" rel="noreferrer">
-                                <i class="fab fa-github-alt"></i>
+                            <a className="github-link" href="https://github.com/Billybrown-iii/pomodoro-clock" target="_blank" rel="noreferrer">
+                                <i className="fab fa-github-alt"></i>
                                 <div className="gh-label">View Code</div>
                             </a>
                             <div className="project-description">

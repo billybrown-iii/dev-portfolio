@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import mongoDB from './mongodb.png';
-import expressIcon from './express.png';
+import mongoDB from './bin/mongodb.png';
+import expressIcon from './bin/express.png';
 
 function Home(props) {
     return (
