@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react"
 import budget from './bin/budget.png'
 import quote from './bin/quote.png'
