@@ -14,7 +14,7 @@ function Projects(props) {
 
                     <a className="project-link" href="https://monthlybudget.netlify.app/" target="_blank" rel="noreferrer">
                         <div className="project">
-                            <a className="github-link" href="https://github.com/BillyBDev/budget-react-app" target="_blank" rel="noreferrer">
+                            <a className="github-link" href="https://github.com/billybrown-iii/budget-react-app" target="_blank" rel="noreferrer">
                                 <i className="fab fa-github-alt"></i>
                                 <div className="gh-label">View Code</div>
                             </a>
